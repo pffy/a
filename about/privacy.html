@@ -1,16 +1,10 @@
+---
+---
 <!DOCTYPE html>
 <html>
 <head>
   <title>Privacy Policy - pffy</title>
-      <!-- Global site tag (gtag.js) - Google Analytics -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-168758736-1"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-
-    gtag('config', 'UA-168758736-1');
-  </script>  
+  {% include ga.html %}
 </head>
 <body>
 
@@ -144,16 +138,7 @@ A copy of the original WordPress privacy policy can be found here:
   The Pffy Authors
 </p>
   
-<style>
-  body {
-    font-size: 24pt;
-  }
-  
-  h1,h2 {
-    font-family: Helvetica;
-  }
-</style>
-
+{% include style.html %}
 
 </body>
 </html>
